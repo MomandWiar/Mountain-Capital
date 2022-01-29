@@ -1,0 +1,57 @@
+.mc-background {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-top {
+    padding-top: 80px;
+}
+
+.title-position {
+    margin-top: 450px;
+    font-size: 72px;
+}
+
+.mc-section {
+    padding: 80px 0;
+}
+
+.mc-title {
+    font-size: 50px;
+}
+
+.mc-list {
+    list-style: none;
+    padding: 0;
+}
+
+.mc-background-blockchain {
+    background-image: url('../images/blockchain.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .title-position {
+        margin-top: 400px;
+        font-size: 50px;
+    }
+
+    .title-position{
+        text-align: left !important;
+    }
+
+    .mc-background-blockchain {
+        background-image: url();
+    }
+
+    .mc-width {
+        width: 75% !important;
+    }
+
+    .mc-image {
+        display: none;
+    }
+    
+}
